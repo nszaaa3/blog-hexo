@@ -1,0 +1,2 @@
+cd ..
+nohup hexo server&
