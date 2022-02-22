@@ -5,7 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df4293d-10bb-4f67-8ff6-318ef7053546" name="Changes" comment="github">
+      <change afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/source/lib/font-awesome/fonts/JetBrainsMono-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/languages/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/languages/ko.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/languages/zh.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/404.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/_partial/donate.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/_partial/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/_partial/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/_partial/nav.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/_partial/toc.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/about.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/archive.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/catagory.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/layout.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/page.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/post.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/layout/tags.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/readme-en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/_partial/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/_partial/footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/_partial/footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/about.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/archive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/archive.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/diff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/diff.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/donate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/donate.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/gitment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/gitment.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/hightlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/hightlight.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/nav.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/page.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/post.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/post.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/tag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/tag.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/toc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/toc.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/_less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/css/aircloud.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/css/aircloud.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/css/aircloud.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/css/gitment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/js/gitment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-aircloud/source/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/solar-theme-hexo/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/layout/_partial/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/solar-theme-hexo/layout/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/layout/layout/_partial/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/solar-theme-hexo/source/css/_variables.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/source/css/_variables.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/solar-theme-hexo/source/lib/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/source/lib/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/solar-theme-hexo/source/lib/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/solar-theme-hexo/source/lib/font-awesome/css/font-awesome.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +107,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/solar-theme-hexo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/solar-theme-hexo/source/font" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,7 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\web\blog-hexo\themes\solar-theme-hexo\source\font" />
       <recent name="D:\Workspaces\web\blog-hexo\themes\solar-theme-hexo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\web\blog-hexo\themes\solar-theme-hexo\source\lib\font-awesome\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +138,7 @@
       <workItem from="1645510614832" duration="2521000" />
       <workItem from="1645515050720" duration="5428000" />
       <workItem from="1645520539825" duration="702000" />
-      <workItem from="1645521274096" duration="272000" />
+      <workItem from="1645521274096" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="tags &amp; categories">
       <created>1645496244840</created>
@@ -81,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645520417344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="github">
+      <created>1645521595657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645521595657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +184,7 @@
     </ignored-roots>
     <MESSAGE value="tags &amp; categories" />
     <MESSAGE value="switched theme to solar" />
-    <option name="LAST_COMMIT_MESSAGE" value="switched theme to solar" />
+    <MESSAGE value="github" />
+    <option name="LAST_COMMIT_MESSAGE" value="github" />
   </component>
 </project>
