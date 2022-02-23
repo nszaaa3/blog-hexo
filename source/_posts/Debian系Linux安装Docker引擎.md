@@ -5,10 +5,14 @@ date: 2022-02-22 11:30:04
 
 tags:
 
-- Linux
 - Debian
+- Linux
 - Ubuntu
 - Docker
 
-category: docker
+category:
+
+- docker
+
 ---
+
