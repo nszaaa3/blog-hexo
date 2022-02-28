@@ -107,5 +107,5 @@ deploy:
   type: git
   repo: git@github.com:nszaaa3/nszaaa3.github.io.git
   branch: master
-  message: wryyyy
+  message: 'disabled cdn changed logo'
 
