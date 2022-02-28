@@ -10,6 +10,7 @@ tags:
 category:
 
 - docker
+
 ---
 
 ## Before
@@ -32,7 +33,8 @@ category:
 
 这样操作是通过Docker创建一个~~CentOS~~虚拟机，再在虚拟机里装需要的软件。
 
-我完全没有嘲笑这样操作的意思，我意思是看不起这种操作，连看一眼的价值都没有，这些人是想告诉你：我会创建虚拟机，并且会通过虚拟机安装软件。这样做完全违背了Docker的便捷性， 如果说这样操作有一点点符合Docker精神，那就是你可以很方便地通过一个命令删掉所有你用的软件：
+我完全没有嘲笑这样操作的意思，我意思是看不起这种操作，连看一眼的价值都没有，这些人是想告诉你：我会创建虚拟机，并且会通过虚拟机安装软件。这样做完全违背了Docker的便捷性，
+如果说这样操作有一点点符合Docker精神，那就是你可以很方便地通过一个命令删掉所有你用的软件：
 
 `docker rm centos`
 
@@ -57,6 +59,39 @@ category:
 
 ## Why
 
-TODO
+因为Docker发展到今天，市场上已经有无数可以直接拉取直接使用的Docker容器，对比以下两段代码：
+
+``` shell
+# Installing MySQL in a CentOS container
+sudo docker pull centos
+sudo docker run -it --name centos7 -p 3306:3306 --privileged=true centos:latest /usr/sbin/init
+sudo docker exec -it centos7 bash
+yum update
+yum install mysql-server
+```
+
+```shell
+# Installing a MySQL container
+docker run -p 3306:3306 --name mysql57 mysql
+```
+
+这两段代码完成了同样的工作——创建一个docker容器，并安装好MySQL数据库，安装下载MySQL的时间还不计在内。
 
 ## How
+
+下面是Docker的安装教程：
+
+### Linux
+
+```shell
+# step1: Download Installing script
+curl -fsSL get.docker.com -o get-docker.sh
+# step2: Install
+sh get-docker.sh --mirror Aliyun
+```
+
+至此，Docker已经安装完成。
+
+TODO
+
+
