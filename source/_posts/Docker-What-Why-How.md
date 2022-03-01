@@ -90,8 +90,19 @@ curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh --mirror Aliyun
 ```
 
-至此，Linux平台的 Docker已经安装完成。
+### Docker-desktop
 
-TODO
+适配于Windows系统和Mac系统的桌面版Docker的官方下载地址：
+
+[Docker-desktop Download](https://www.docker.com/products/docker-desktop)
+
+手动安装完成之后会自动配置系统环境变量。
+
+现在可以拉取一个Hello-World镜像来试验Docker是否安装完成:
+
+```shell
+docker run hello-world
+```
+
 
 
