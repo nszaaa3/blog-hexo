@@ -1,7 +1,7 @@
 ---
-title: Docker入门之Linux与Win
+title: Docker入门之基础概念
 
-date: 2022-02-22 11:30:04
+date: 2022-02-20 11:30:04
 
 tags:
 
@@ -90,7 +90,7 @@ curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh --mirror Aliyun
 ```
 
-至此，Docker已经安装完成。
+至此，Linux平台的 Docker已经安装完成。
 
 TODO
 
