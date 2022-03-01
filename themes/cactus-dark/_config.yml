@@ -27,9 +27,9 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/nszaaa3
-  twitter: /
-  facebook: /
-  linkedin: /
+#  twitter: /
+#  facebook: /
+#  linkedin: /
   mail: mailto:shididev@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
