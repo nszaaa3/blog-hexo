@@ -34,8 +34,8 @@ comments: true
 
 ## 致敬
 
-[Hexo 博客系统](https://hexo.io/zh-cn/index.html)
+[Hexo 博客系统](https://hexo.io)
 
 [Hexo 主题 Cactus-Dark](https://github.com/probberechts/hexo-theme-cactus)
 
-[东仙队长的博客](https://coderemixer.com/)
+[东仙队长的博客](https://coderemixer.com)

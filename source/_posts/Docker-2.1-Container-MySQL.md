@@ -9,8 +9,8 @@ tags:
 - MySQL
 - Database
 
-category:
+categories:
 
-- docker
+- Docker
 
 ---

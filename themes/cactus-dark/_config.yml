@@ -17,8 +17,10 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: https://github.com/nszaaa3
+  category: /categories
+  tag: /tags
   plans: /plans
+  projects: https://github.com/nszaaa3
 
 
 # Links to your social media accounts.
@@ -27,9 +29,9 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/nszaaa3
-#  twitter: /
-#  facebook: /
-#  linkedin: /
+  #  twitter: /
+  #  facebook: /
+  #  linkedin: /
   mail: mailto:shididev@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
@@ -43,7 +45,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
   sort_updated: false
 
 # Customize the archive view.
