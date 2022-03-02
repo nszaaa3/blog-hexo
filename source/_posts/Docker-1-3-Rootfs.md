@@ -26,11 +26,8 @@ docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 相关参数：
 
 - -a :提交的镜像作者；
-
 - -c :使用Dockerfile指令来创建镜像；
-
 - -m :提交时的说明文字；
-
 - -p :在commit时，将容器暂停。
 
 实例

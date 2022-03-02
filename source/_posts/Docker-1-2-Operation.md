@@ -24,19 +24,12 @@ docker ps [OPTIONS]
 相关参数：
 
 - -a :显示所有的容器 包括未运行的
-
 - -f :根据条件过滤显示的内容
-
 - --format :指定返回值的模板文件
-
 - -l :显示最近创建的容器
-
 - -n :列出最近创建的n个容器
-
 - --no-trunc :不截断输出
-
 - -q :静默模式 只显示容器编号
-
 - -s :显示总的文件大小
 
 实例
@@ -50,34 +43,19 @@ docker ps
 输出详情介绍：
 
 - CONTAINER ID: 容器 ID
-
 - IMAGE: 使用的镜像
-
 - COMMAND: 启动容器时运行的命令
-
 - CREATED: 容器的创建时间
-
+- PORTS: 容器的端口信息和使用的连接类型（tcp\udp）
+- NAMES: 自动分配的容器名称
 - STATUS: 容器状态
-
-状态有7种：
-
-- created（已创建）
-
-- restarting（重启中）
-
-- running（运行中）
-
-- removing（迁移中）
-
-- paused（暂停）
-
-- exited（停止）
-
-- dead（死亡）
-
-PORTS: 容器的端口信息和使用的连接类型（tcp\udp）
-
-NAMES: 自动分配的容器名称
+    - created（已创建）
+    - restarting（重启中）
+    - running（运行中）
+    - removing（迁移中）
+    - paused（暂停）
+    - exited（停止）
+    - dead（死亡）
 
 列出最近创建的5个容器信息
 
@@ -102,9 +80,7 @@ docker inspect [OPTIONS] NAME|ID [NAME|ID...]
 相关参数：
 
 - -f :指定返回值的模板文件
-
 - -s :显示总的文件大小
-
 - --type :为指定类型返回JSON
 
 实例
@@ -177,9 +153,7 @@ docker events [OPTIONS]
 相关参数：
 
 - -f ：根据条件过滤事件；
-
 - --since ：从指定的时间戳后显示所有事件;
-
 - --until ：流水时间显示到指定的时间为止；
 
 实例
@@ -207,11 +181,8 @@ docker logs [OPTIONS] CONTAINER
 相关参数：
 
 - -f : 跟踪日志输出
-
 - --since :显示某个开始时间的所有日志
-
 - -t : 显示时间戳
-
 - --tail :仅列出最新N条容器日志
 
 实例
