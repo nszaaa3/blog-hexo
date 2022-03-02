@@ -7,7 +7,7 @@ categories:
 
 - Docker
 
-tags: 
+tags:
 
 - Docker
 
@@ -104,5 +104,4 @@ sh get-docker.sh --mirror Aliyun
 docker run hello-world
 ```
 
-
-
+~~OK，本来写了一堆Docker基础操作内容，自己看了一下，扔马桶里了，直接从笔记里摘出来我的容器。~~  
