@@ -8,6 +8,10 @@ layout: "about"
 comments: true
 ---
 
+## 我是谁
+
+~~一个兴趣使然的程序员~~ 臭写代码的
+
 ## 为什么会有这个博客
 
 在离开校园踏上社会之后，虽然保留着读书的习惯，但是几乎没有动笔写过东西，偶尔记一些笔记，过后也只在用得到的时候才看一眼。以至于我怀疑自己是否还有写作能力，所以为了证明我脑袋还有沟沟，决定开始做一个博客，分享一些人生的经验。
@@ -39,3 +43,38 @@ comments: true
 [Hexo 主题 Cactus-Dark](https://github.com/probberechts/hexo-theme-cactus)
 
 [东仙队长的博客](https://coderemixer.com)
+
+{% pullquote mindmap mindmap-ld %}
+
+- Fengx
+    - 任何方向
+        - 编程语言
+            - Java
+        - SQL
+        - Linux
+        - Git
+    - 技术
+        - Java Web
+        - 数据库
+        - Docker
+        - svn
+        - 消息队列(MQ)
+        - mycat
+        - 大数据
+            - Hadoop
+            - HBase
+    - 内功
+        - 计算机基础
+            - 计算机网络
+            - 计算机操作系统
+            - 编译原理
+            - 计算机组成原理
+        - 数据结构与算法
+        - 设计模式
+        - 性能优化
+        - 架构设计
+        - 软件工程
+    - 其他
+        - 英语
+        - 博客 {% endpullquote %}
+ 
