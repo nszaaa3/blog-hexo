@@ -104,4 +104,18 @@ sh get-docker.sh --mirror Aliyun
 docker run hello-world
 ```
 
-~~OK，本来写了一堆Docker基础操作内容，自己看了一下，扔马桶里了，直接从笔记里摘出来我的容器。~~  
+~~OK，本来写了一堆Docker基础操作内容，自己看了一下，扔马桶里了，直接从笔记里摘出来我的容器。~~
+
+### Portainer
+使用Portainer可以在Web页面管理docker容器
+
+```shell
+docker pull portainer/portainer
+docker run -d \
+-p 9000:9000 \
+--restart=always \
+-v /var/run/docker.sock:/var/run/docker.sock \
+--name portainer portainer/portainer
+```
+
+安装完成之后，用浏览器打开 ip:9000进行设置，设置用户名和密码，选择localhost即可管理本地容器和镜像。
