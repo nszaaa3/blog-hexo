@@ -21,7 +21,7 @@ tags:
 
 ——"这一切……"
 
-电脑上的所有操作全部被监控了，一堆软件不让装，相应的也就不能用Google搜索了，我打开了熟悉的度娘，那一刻，人类终于回想起了被[CSDN](/hexo/img/bazinga.gif)支配的恐怖。
+电脑上的所有操作全部被监控了，一堆软件不让装，相应的也就不能用Google搜索了，我打开了熟悉的度娘，那一刻，人类终于回想起了被[CSDN](/img/bazinga.gif)支配的恐怖。
 
 抛开充满抄袭狗不说，被抄袭的文章还是十年前东拼西凑的东西，单说Docker相关的文章，不知道这些CSDN作者是商量好了还是集体缺心眼，所有文章的第一步都是：
 
@@ -42,7 +42,7 @@ tags:
 
 为什么这样说，我们先来看看Docker的标识，如下图：
 
-![docker](img/docker.gif)
+![docker](/img/docker.gif)
 
 我们再来学习几个英语单词：
 
@@ -107,6 +107,7 @@ docker run hello-world
 ~~OK，本来写了一堆Docker基础操作内容，自己看了一下，扔马桶里了，直接从笔记里摘出来我的容器。~~
 
 ### Portainer
+
 使用Portainer可以在Web页面管理docker容器
 
 ```shell
