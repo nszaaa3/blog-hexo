@@ -5,12 +5,12 @@ date: 2022-03-09 14:38:35
 
 categories:
 
-- 杂谈
+- Miscellaneous
 
 tags:
 
-- 文学
-- 国学
+- Literature
+- Sinology
 
 ---
 
