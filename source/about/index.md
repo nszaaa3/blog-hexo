@@ -45,7 +45,13 @@ comments: true
 
 [东仙队长的博客](https://coderemixer.com)
 
+## 演示项目
+
+[问卷调查](https://shididev.com/uniapp-sqhrms/)
+
+
 ### 乔瑟夫·乔斯达，你这家伙在看我对吧？！
 
 ![docker](/img/Dio.jpg)
+
 
