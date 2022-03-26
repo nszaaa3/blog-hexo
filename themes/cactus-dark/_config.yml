@@ -18,8 +18,9 @@ nav:
   articles: /archives/
   category: /categories
   tag: /tags
-#  plans: /plans
+  #  plans: /plans
   about: /about/
+  resume: /resume/
 #  projects: https://shididev.com/uniapp-sqhrms
 
 
