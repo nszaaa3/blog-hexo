@@ -7,3 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 .idea/
+nohup.out
+bin/sh/nohup.out
