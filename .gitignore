@@ -9,3 +9,5 @@ _multiconfig.yml
 .idea/
 nohup.out
 bin/sh/nohup.out
+
+source/books/resources/
