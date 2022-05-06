@@ -5,6 +5,8 @@ date: 2022-05-01 23:04:46
 
 ---
 
+[百度网盘](https://pan.baidu.com/s/1GE4WMhTFVL0i0-WwazsWnQ?pwd=u93a)
+
 ## C 语言
 
 [《啊哈磊 – 啊哈c语言》](resources/C/啊哈c语言.pdf)
