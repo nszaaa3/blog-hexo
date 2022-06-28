@@ -147,6 +147,7 @@ option "operating_currency" "CNY" ;账本主货币
  ``` shell
  fava main.bean
  ```
+
 浏览器打开 [http://localhost:5000](http://localhost:5000)即可
 
 至此，最简版的beancount+fava搭建完成，按示例添加现有资产、收入、消费记录即可
@@ -397,11 +398,18 @@ Opening-Balances```账户
  ``` shell
  fava main.bean
  ```
+
 浏览器打开 [http://localhost:5000](http://localhost:5000)即可
 
 ![示例](/img/2022/june/28/01.png)
 
-
 小朋友们，你学会了吗？
 
 还是不知道我为啥受穷。
+
+## 多设备间同步账单
+1. 拿U盘拷
+2. 拿网络传
+3. Github
+4. 意念传输
+
