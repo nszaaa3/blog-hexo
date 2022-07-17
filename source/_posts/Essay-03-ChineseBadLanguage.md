@@ -4,7 +4,14 @@ title: 杂谈-03-中文脏话考
 
 date: 2022-06-06 23:37:10
 
+categories:
+
+- Essay
+
 tags:
+
+- Gossip
+
 ---
 
 
