@@ -13,6 +13,9 @@ tags:
 - Bookkeeping
 
 ---
+## 太长不看
+克隆下来即可用[github](https://github.com/nszaaa3/MyBeancountLedger-Demo)。
+
 
 ## 起因
 
@@ -159,7 +162,7 @@ option "operating_currency" "CNY" ;账本主货币
 
 方案二将各个账本分离开，可以更明了地管理账目
 
-我把方案二的部署代码放到[github](https://github.com/nszaaa3/MyBeancountLedger-Demo)上，克隆下来即可使用。
+方案二代码[github](https://github.com/nszaaa3/MyBeancountLedger-Demo)。
 
 #### main.bean
 
