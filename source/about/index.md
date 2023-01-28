@@ -52,6 +52,6 @@ comments: true
 
 ### 乔瑟夫·乔斯达，你这家伙在看我对吧？！
 
-![docker](/img/2022/february/Dio.jpg)
+![docker](/img/2022/02/Dio.jpg)
 
 
