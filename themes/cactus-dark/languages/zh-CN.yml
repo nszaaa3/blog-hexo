@@ -9,7 +9,7 @@ nav:
   plans: 计划
   resume: 简历
   books: 书籍
-  repost: 转发
+#  repost: 转发
 
 footer:
   copyright: Copyright
