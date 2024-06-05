@@ -1,4 +1,4 @@
-cd /home/shidi/.workspaces/blog-hexo/
+cd /home/shidi/.workspaces/me/blog-hexo/
 git pull
 hexo clean
 hexo g
