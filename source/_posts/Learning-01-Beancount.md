@@ -171,7 +171,7 @@ option "operating_currency" "CNY" ;账本主货币
 ;【一、账本设置】
 option "title" "My Ledger"
 option "operating_currency" "CNY"
-2022/07/01 custom "fava-option" "language" "zh"
+2022-07-01 custom "fava-option" "language" "zh"
 
 ;【二、账户设置】
 include "accounts/*.bean"                       ;正则匹配账户文件
@@ -191,33 +191,25 @@ plugin "beancount.plugins.forecast"             ;beancount官方提供的账单�
 ```shell
 ;初始财产
 ;任何Assets在open日期前不可使用
-2022/07/01 open Assets:Current:Bank:CN:XXB      ;XX银行
-2022/07/01 open Assets:Current:Bank:CN:YYB      ;YY银行
-2022/07/01 open Assets:Current:Bank:CN:WX       ;微信
-2022/07/01 open Assets:Current:Bank:CN:Alipay   ;支付宝
-2022/07/01 open Assets:Deposit:BusCard:CN:LCT   ;郑州绿城通公交卡
-2022/07/01 open Assets:Deposit:SIM:CN:Mobile    ;手机卡移动
-2022/07/01 open Assets:Deposit:SIM:CN:Unicom    ;手机卡联通
-2022/07/01 * "" "YY银行-初始余额"
-    Assets:Current:Bank:CN:YYB                  +100.00 CNY
+2022-07-01 open Assets:Current:Bank:CMB      ;招商银行
+2022-07-01 open Assets:Current:Bank:CEB      ;光大银行
+2022-07-01 open Assets:Current:Bank:WX       ;微信
+2022-07-01 open Assets:Current:Bank:Alipay   ;支付宝
+2022-07-01 open Assets:Deposit:BusCard:LCT   ;郑州绿城通公交卡
+2022-07-01 * "光大卡" "初始余额"
+    Assets:Current:Bank:CEB                  +100.00 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "XX银行-初始余额"
-    Assets:Current:Bank:CN:XXB                  +100.00 CNY
+2022-07-01 * "招商卡" "初始余额"
+    Assets:Current:Bank:CMB                  +100.00 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "微信-初始余额"
-    Assets:Current:Bank:CN:Alipay               +100.00 CNY
+2022-07-01 * "微信" "初始余额"
+    Assets:Current:Bank:WX                   +100.00 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "支付宝-初始余额"
-    Assets:Current:Bank:CN:Alipay               +100.00 CNY
+2022-07-01 * "支付宝" "初始余额"
+    Assets:Current:Bank:Alipay               +100.00 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "公交卡-初始余额"
-    Assets:Deposit:BusCard:CN:LCT               +100.00 CNY
-    Equity:Opening-Balances
-2022/07/01 * "" "手机卡联通-初始余额"
-    Assets:Deposit:SIM:CN:Unicom                +100.00 CNY
-    Equity:Opening-Balances
-2022/07/01 * "" "手机卡移动-初始余额"
-    Assets:Deposit:SIM:CN:Mobile                +100.0 CNY
+2022-07-01 * "公交卡" "初始余额"
+    Assets:Deposit:BusCard:LCT               +100.00 CNY
     Equity:Opening-Balances
 
 ```
@@ -230,7 +222,7 @@ Opening-Balances```账户
 ```shell
 ;权益账户
 ;任何Equity在open日期前不可使用
-2022/07/01 open Equity:Opening-Balances
+2022-07-01 open Equity:Opening-Balances
 ;初始化资产
 
 ```
@@ -242,90 +234,90 @@ Opening-Balances```账户
 ```shell
 ;任何Expenses在open日期前不可使用
 ;居家
-2022/07/01 open Expenses:Home:Phone                     ;手机电话
-2022/07/01 open Expenses:Home:Mortgage:Interest         ;房贷利息
-2022/07/01 open Expenses:Home:Insurance:ZJX             ;重疾险
-2022/07/01 open Expenses:Home:Insurance:SX:MDW          ;寿险
-2022/07/01 open Expenses:Home:Insurance:YWX:MDW         ;意外险
-2022/07/01 open Expenses:Home:Insurance:Alipay:YLX      ;医疗险
-2022/07/01 open Expenses:Home:Insurance:CCX             ;财产险
-2022/07/01 open Expenses:Home:Water-Electricity-Gas     ;水电燃气
-2022/07/01 open Expenses:Home:WYF                       ;物业费
-2022/07/01 open Expenses:Home:Delivery                  ;快递费
-2022/07/01 open Expenses:Home:Haircut                   ;理发费
-2022/07/01 open Expenses:Home:Omission                  ;漏记款
-2022/07/01 open Expenses:Home:Other                     ;其他
+2022-07-01 open Expenses:Home:Phone                     ;手机电话
+2022-07-01 open Expenses:Home:Mortgage:Interest         ;房贷利息
+2022-07-01 open Expenses:Home:Insurance:ZJX             ;重疾险
+2022-07-01 open Expenses:Home:Insurance:SX:MDW          ;寿险
+2022-07-01 open Expenses:Home:Insurance:YWX:MDW         ;意外险
+2022-07-01 open Expenses:Home:Insurance:Alipay:YLX      ;医疗险
+2022-07-01 open Expenses:Home:Insurance:CCX             ;财产险
+2022-07-01 open Expenses:Home:Water-Electricity-Gas     ;水电燃气
+2022-07-01 open Expenses:Home:WYF                       ;物业费
+2022-07-01 open Expenses:Home:Delivery                  ;快递费
+2022-07-01 open Expenses:Home:Haircut                   ;理发费
+2022-07-01 open Expenses:Home:Omission                  ;漏记款
+2022-07-01 open Expenses:Home:Other                     ;其他
 ;人情
-2022/07/01 open Expenses:Relationship:Gift              ;礼物
-2022/07/01 open Expenses:Relationship:Relative          ;礼金
-2022/07/01 open Expenses:Relationship:PrePayment        ;代付款
-2022/07/01 open Expenses:Relationship:FilialPiety       ;孝敬
-2022/07/01 open Expenses:Relationship:RedEnvelope       ;红包
-2022/07/01 open Expenses:Relationship:Other             ;其他
+2022-07-01 open Expenses:Relationship:Gift              ;礼物
+2022-07-01 open Expenses:Relationship:Relative          ;礼金
+2022-07-01 open Expenses:Relationship:PrePayment        ;代付款
+2022-07-01 open Expenses:Relationship:FilialPiety       ;孝敬
+2022-07-01 open Expenses:Relationship:RedEnvelope       ;红包
+2022-07-01 open Expenses:Relationship:Other             ;其他
 ;购物
-2022/07/01 open Expenses:Shopping:Clothing              ;服饰鞋包
-2022/07/01 open Expenses:Shopping:Digital               ;电子数码
-2022/07/01 open Expenses:Shopping:Home                  ;家居百货
-2022/07/01 open Expenses:Shopping:Book                  ;买书
-2022/07/01 open Expenses:Shopping:Tea                   ;茶叶
-2022/07/01 open Expenses:Shopping:Makeup                ;化妆护肤
-2022/07/01 open Expenses:Shopping:Other                 ;其他
+2022-07-01 open Expenses:Shopping:Clothing              ;服饰鞋包
+2022-07-01 open Expenses:Shopping:Digital               ;电子数码
+2022-07-01 open Expenses:Shopping:Home                  ;家居百货
+2022-07-01 open Expenses:Shopping:Book                  ;买书
+2022-07-01 open Expenses:Shopping:Tea                   ;茶叶
+2022-07-01 open Expenses:Shopping:Makeup                ;化妆护肤
+2022-07-01 open Expenses:Shopping:Other                 ;其他
 ;餐饮
-2022/07/01 open Expenses:Food:Breakfast                 ;早餐
-2022/07/01 open Expenses:Food:Lunch                     ;午餐
-2022/07/01 open Expenses:Food:Dinner                    ;晚餐
-2022/07/01 open Expenses:Food:Alcohol                   ;酒水
-2022/07/01 open Expenses:Food:DrinkFruit                ;饮料水果
-2022/07/01 open Expenses:Food:Vegetables                ;买菜原料
-2022/07/01 open Expenses:Food:Invite                    ;请客吃饭
-2022/07/01 open Expenses:Food:Omission                  ;漏记款
-2022/07/01 open Expenses:Food:Other                     ;其他
+2022-07-01 open Expenses:Food:Breakfast                 ;早餐
+2022-07-01 open Expenses:Food:Lunch                     ;午餐
+2022-07-01 open Expenses:Food:Dinner                    ;晚餐
+2022-07-01 open Expenses:Food:Alcohol                   ;酒水
+2022-07-01 open Expenses:Food:DrinkFruit                ;饮料水果
+2022-07-01 open Expenses:Food:Vegetables                ;买菜原料
+2022-07-01 open Expenses:Food:Invite                    ;请客吃饭
+2022-07-01 open Expenses:Food:Omission                  ;漏记款
+2022-07-01 open Expenses:Food:Other                     ;其他
 ;医疗健康
-2022/07/01 open Expenses:Health:Outpatient              ;门诊
-2022/07/01 open Expenses:Health:Medical                 ;药品
-2022/07/01 open Expenses:Health:Examination             ;体检
-2022/07/01 open Expenses:Health:Other                   ;其他
+2022-07-01 open Expenses:Health:Outpatient              ;门诊
+2022-07-01 open Expenses:Health:Medical                 ;药品
+2022-07-01 open Expenses:Health:Examination             ;体检
+2022-07-01 open Expenses:Health:Other                   ;其他
 ;娱乐
-2022/07/01 open Expenses:Entertainment:Movie            ;电影
-2022/07/01 open Expenses:Entertainment:Travel           ;旅游度假
-2022/07/01 open Expenses:Entertainment:Hotel            ;酒店住宿
-2022/07/01 open Expenses:Entertainment:Media            ;网络流媒体服务
-2022/07/01 open Expenses:Entertainment:Show             ;演出门票
-2022/07/01 open Expenses:Entertainment:Other
+2022-07-01 open Expenses:Entertainment:Movie            ;电影
+2022-07-01 open Expenses:Entertainment:Travel           ;旅游度假
+2022-07-01 open Expenses:Entertainment:Hotel            ;酒店住宿
+2022-07-01 open Expenses:Entertainment:Media            ;网络流媒体服务
+2022-07-01 open Expenses:Entertainment:Show             ;演出门票
+2022-07-01 open Expenses:Entertainment:Other
 ;交通
-2022/07/01 open Expenses:Transport:Airline              ;飞机
-2022/07/01 open Expenses:Transport:Railway              ;火车
-2022/07/01 open Expenses:Transport:Taxi                 ;打车
-2022/07/01 open Expenses:Transport:Transit              ;公交地铁
-2022/07/01 open Expenses:Transport:Car:Oil              ;加油
-2022/07/01 open Expenses:Transport:Car:Tolls            ;过路过桥
-2022/07/01 open Expenses:Transport:Car:Maintenance      ;保养维修
-2022/07/01 open Expenses:Transport:Car:Insurance        ;车险
-2022/07/01 open Expenses:Transport:Car:Parking          ;停车费
-2022/07/01 open Expenses:Transport:Car:Wash             ;洗车
-2022/07/01 open Expenses:Transport:Bike                 ;共享单车
-2022/07/01 open Expenses:Transport:Other                ;其他
+2022-07-01 open Expenses:Transport:Airline              ;飞机
+2022-07-01 open Expenses:Transport:Railway              ;火车
+2022-07-01 open Expenses:Transport:Taxi                 ;打车
+2022-07-01 open Expenses:Transport:Transit              ;公交地铁
+2022-07-01 open Expenses:Transport:Car:Oil              ;加油
+2022-07-01 open Expenses:Transport:Car:Tolls            ;过路过桥
+2022-07-01 open Expenses:Transport:Car:Maintenance      ;保养维修
+2022-07-01 open Expenses:Transport:Car:Insurance        ;车险
+2022-07-01 open Expenses:Transport:Car:Parking          ;停车费
+2022-07-01 open Expenses:Transport:Car:Wash             ;洗车
+2022-07-01 open Expenses:Transport:Bike                 ;共享单车
+2022-07-01 open Expenses:Transport:Other                ;其他
 ;五险一金
-2022/07/01 open Expenses:Government:Pension             ;养老保险
-2022/07/01 open Expenses:Government:Unemployment        ;失业保险
-2022/07/01 open Expenses:Government:Medical             ;医疗保险
-2022/07/01 open Expenses:Government:Injury              ;工伤保险
-2022/07/01 open Expenses:Government:Maternity           ;生育保险
-2022/07/01 open Expenses:Business:Medical               ;商业医疗保险
+2022-07-01 open Expenses:Government:Pension             ;养老保险
+2022-07-01 open Expenses:Government:Unemployment        ;失业保险
+2022-07-01 open Expenses:Government:Medical             ;医疗保险
+2022-07-01 open Expenses:Government:Injury              ;工伤保险
+2022-07-01 open Expenses:Government:Maternity           ;生育保险
+2022-07-01 open Expenses:Business:Medical               ;商业医疗保险
 ;个人税
-2022/07/01 open Expenses:Government:IncomeTax           ;工资个税
-2022/07/01 open Expenses:Government:Customs             ;关税
+2022-07-01 open Expenses:Government:IncomeTax           ;工资个税
+2022-07-01 open Expenses:Government:Customs             ;关税
 ;投资
-2022/07/01 open Expenses:Invest:Dev                     ;技术基础设施费用
-2022/07/01 open Expenses:Invest:Study                   ;学习费用
-2022/07/01 open Expenses:Invest:Portfolio:Interest      ;利息支出
-2022/07/01 open Expenses:Invest:Cost                    ;手续费
-2022/07/01 open Expenses:Invest:Other                   ;其他
+2022-07-01 open Expenses:Invest:Dev                     ;技术基础设施费用
+2022-07-01 open Expenses:Invest:Study                   ;学习费用
+2022-07-01 open Expenses:Invest:Portfolio:Interest      ;利息支出
+2022-07-01 open Expenses:Invest:Cost                    ;手续费
+2022-07-01 open Expenses:Invest:Other                   ;其他
 ;虚拟服务
-2022/07/01 open Expenses:Virtual:OnePlusCloud           ;一加云
-2022/07/01 open Expenses:Virtual:XiaoMiCloud            ;小米云
-2022/07/01 open Expenses:Virtual:AppleCloud             ;苹果云
-2022/07/01 open Expenses:Virtual:YouKu                  ;优酷VIP
+2022-07-01 open Expenses:Virtual:OnePlusCloud           ;一加云
+2022-07-01 open Expenses:Virtual:XiaoMiCloud            ;小米云
+2022-07-01 open Expenses:Virtual:AppleCloud             ;苹果云
+2022-07-01 open Expenses:Virtual:YouKu                  ;优酷VIP
 ```
 
 #### accounts/income.bean
@@ -335,19 +327,19 @@ Opening-Balances```账户
 ```shell
 ;任何Income在open日期前不可使用
 ;主动收入
-2022/07/01 open Income:CN:Salary:MyCompany CNY            ;上班公司收入
+2022-07-01 open Income:Salary:MyCompany CNY            ;上班公司收入
 ;被动收入
 ;奖金
 ;赔付款
 ;影响力：咨询、打赏等
 ;退款返款
 ;红包
-2022/07/01 open Income:CN:Interest:WX-RedEnvelope CNY     ;微信红包
+2022-07-01 open Income:Interest:WX-RedEnvelope CNY     ;微信红包
 ;投资
-2022/07/01 open Income:CN:Interest:Alipay-YEB CNY         ;余额宝
+2022-07-01 open Income:Interest:Alipay-YEB CNY         ;余额宝
 ;薅羊毛
 ;其他
-2022/07/01 open Income:CN:Transfer:FromWho CNY            ;他人转账
+2022-07-01 open Income:Transfer:FromWho CNY            ;他人转账
 
 ```
 
@@ -358,29 +350,29 @@ Opening-Balances```账户
 ```shell 
 ;任务Liabilities在open日期前不可使用
 ;贷款
-2022/07/01 open Liabilities:Mortgage:CN:YYB CNY             ;YY银行
+2022-07-01 open Liabilities:Mortgage:CEB CNY             ;光大银行
 ;信用卡
-2022/07/01 open Liabilities:CreditCard:CN:XXB CNY           ;招行信用卡
-2022/07/01 open Liabilities:CreditCard:CN:Alipay-Huabei CNY ;花呗
+2022-07-01 open Liabilities:CreditCard:CMB CNY           ;招行信用卡
+2022-07-01 open Liabilities:CreditCard:Alipay-Huabei CNY ;花呗
 
-2022/07/01 * "" "初始债务-房贷"
-    Liabilities:Mortgage:CN:YYB                             -123456.12 CNY
+2022-07-01 * "" "初始债务-房贷"
+    Liabilities:Mortgage:CEB                             -123456.12 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "初始债务-信用卡-XX行"
-    Liabilities:CreditCard:CN:XXB                           -123.45 CNY
+2022-07-01 * "" "初始债务-信用卡-XX行"
+    Liabilities:CreditCard:CMB                           -123.45 CNY
     Equity:Opening-Balances
-2022/07/01 * "" "初始债务-支付宝-花呗"
-    Liabilities:CreditCard:CN:Alipay-Huabei                 -1234.56 CNY
+2022-07-01 * "" "初始债务-支付宝-花呗"
+    Liabilities:CreditCard:Alipay-Huabei                 -1234.56 CNY
     Equity:Opening-Balances
 ;初始分期债务
-2022/07/01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (3-0) TIMES]"   ;周期为月，共3期，已还0期
-    Liabilities:CreditCard:CN:Alipay-Huabei      -100.00 CNY       ;每期需还100元
+2022-07-01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (3-0) TIMES]"   ;周期为月，共3期，已还0期
+    Liabilities:CreditCard:Alipay-Huabei      -100.00 CNY       ;每期需还100元
     Equity:Opening-Balances
-2022/07/01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (6-1) TIMES]"   ;周期为月，共6期，已还1期
-    Liabilities:CreditCard:CN:Alipay-Huabei      -100.00 CNY       ;每期需还100元
+2022-07-01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (6-1) TIMES]"   ;周期为月，共6期，已还1期
+    Liabilities:CreditCard:Alipay-Huabei      -100.00 CNY       ;每期需还100元
     Equity:Opening-Balances
-2022/07/01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (12-2) TIMES]"  ;周期为月，共12期，已还2期
-    Liabilities:CreditCard:CN:Alipay-Huabei      -100.00 CNY       ;每期需还100元
+2022-07-01 # "初始分期债务-支付宝-花呗 [MONTHLY REPEAT (12-2) TIMES]"  ;周期为月，共12期，已还2期
+    Liabilities:CreditCard:Alipay-Huabei      -100.00 CNY       ;每期需还100元
     Equity:Opening-Balances
 
 ```
@@ -389,9 +381,9 @@ Opening-Balances```账户
 
 ```shell
 ;年度薪资及转账收入
-2022/07/01 * "" "微信红包"
-    Assets:Current:Bank:CN:WX     +2.00 CNY
-    Income:CN:Interest:WX-RedEnvelope
+2022-07-01 * "" "微信红包"
+    Assets:Current:Bank:WX     +2.00 CNY
+    Income:Interest:WX-RedEnvelope
 
 ```
 
@@ -399,9 +391,9 @@ Opening-Balances```账户
 
 ```shell
 ;7月份收入利息明细
-2022/07/01 * "利息-支付宝余额宝-昨日"
-    Assets:Current:Bank:CN:Alipay                +0.10 CNY
-    Income:CN:Interest:Alipay-YEB
+2022-07-01 * "利息-支付宝余额宝-昨日"
+    Assets:Current:Bank:Alipay                +0.10 CNY
+    Income:Interest:Alipay-YEB
 
 ```
 
@@ -410,12 +402,12 @@ Opening-Balances```账户
 
 ```shell 
 ;q3账户间流水
-2022/07/01 * "" "公交卡充值"
-    Assets:Current:Bank:CN:Alipay     -100.00 CNY       ;从支付宝账户中减去100
-    Assets:Deposit:BusCard:CN:LCT     +100.00 CNY       ;在绿城通账户中加上100，需保持加减平衡
-2022/07/01 * "" "微信充值"
-    Assets:Current:Bank:CN:XXB        -0.50 CNY
-    Assets:Current:Bank:CN:WX         +0.50 CNY
+2022-07-01 * "" "公交卡充值"
+    Assets:Current:Bank:Alipay     -100.00 CNY       ;从支付宝账户中减去100
+    Assets:Deposit:BusCard:LCT     +100.00 CNY       ;在绿城通账户中加上100，需保持加减平衡
+2022-07-01 * "" "微信充值"
+    Assets:Current:Bank:CMB        -0.50 CNY
+    Assets:Current:Bank:WX         +0.50 CNY
 
 ```
 
@@ -424,17 +416,17 @@ Opening-Balances```账户
 
 ```shell
 ;7月份消费明细
-2022/07/01 * "饮食-午餐-手擀面"
-    Liabilities:CreditCard:CN:Alipay-Huabei      -10.00 CNY
+2022-07-01 * "XX餐馆" "午餐"
+    Liabilities:CreditCard:Alipay-Huabei      -10.00 CNY
     Expenses:Food:Lunch
-2022/07/02 * "家居百货-纸巾"
-    Liabilities:CreditCard:CN:Alipay-Huabei      -14.70 CNY
+2022/07/02 * "XX超市" "家居百货"
+    Liabilities:CreditCard:Alipay-Huabei      -14.70 CNY
     Expenses:Shopping:Home
-2022/07/03 * "Taxi-旭然园-南上庄"
-    Liabilities:CreditCard:CN:Alipay-Huabei      -11.69 CNY
+2022/07/03 * "出租车" "用车费"
+    Liabilities:CreditCard:Alipay-Huabei      -11.69 CNY
     Expenses:Transport:Taxi
-2022/07/03 * "共享单车-南上庄-旭然园"
-    Liabilities:CreditCard:CN:Alipay-Huabei      -1.5 CNY
+2022/07/03 * "共享单车" "用车费"
+    Liabilities:CreditCard:Alipay-Huabei      -1.5 CNY
     Expenses:Transport:Bike
 
 ```
