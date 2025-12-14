@@ -138,3 +138,6 @@ shididev@gmail.com | [Github](https://github.com/nszaaa3) | [QQ](http://wpa.qq.c
 - 其他：
     - 有deepSeek-r1:7b部署经验
 
+## 部分项目展示
+- ruoyi-cloud
+  - https://shididev.com
